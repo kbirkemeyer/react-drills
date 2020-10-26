@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+// done with apps 1-7
