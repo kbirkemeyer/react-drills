@@ -1,8 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Todo from './Todo';
 
 
-export default function List() {
+export default function List({tasks}) {
+    let taskItem = tasks.map((element, index) => {
+        return <Todo taskItem={element} key={index}></Todo>
+    })
     return (
-        <div></div>
+        <div>
+            <ul>{taskItem}</ul>
+        </div>
     )
 }
