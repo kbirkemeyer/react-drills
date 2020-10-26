@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import Todo from './components/Todo';
+import List from './components/List';
+import NewTask from './components/NewTask';
+
 
 class App extends Component {
   constructor() {
